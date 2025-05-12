@@ -1,6 +1,6 @@
-maths = -1
-physics = -2
-chemistry = -3
+maths = 20
+physics = 10
+chemistry = 10
 average = (maths + physics + chemistry) / 3
 #print(average) and need to print in which grade he was assigned to.
 
@@ -12,7 +12,5 @@ elif average < 80 and average >= 70:
     print("Grade C")
 elif average < 70 and average >= 60:
     print("Grade D")
-elif average < 60 and average >= 0:
+else: average < 60 and average >= 0:
     print("Grade E")
-else:
-    print ("Marks are uncontrollable")
