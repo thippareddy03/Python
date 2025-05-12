@@ -12,5 +12,7 @@ elif average < 80 and average >= 70:
     print("Grade C")
 elif average < 70 and average >= 60:
     print("Grade D")
-else: average < 60 and average >= 0:
+elif average < 60 and average >= 0:
     print("Grade E")
+else:
+    print("Marks are beyond control")
