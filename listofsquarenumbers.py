@@ -17,6 +17,6 @@ count = 0
 
 for char in Sentence:
     if char in vowels:
-        print(char)
+        #print(char)
         count += 1
 print("Number of vowels in the sentence:", count)

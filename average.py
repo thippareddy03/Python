@@ -16,3 +16,16 @@ elif average < 60 and average >= 0:
     print("Grade E")
 else:
     print("Marks are beyond control")
+
+
+n = 50
+
+if n % 2 == 0:
+    if n == 2 and n >= 5:
+        print("Not Weird")
+    elif n >= 6 and n <= 20:
+        print("Weird")
+    elif n > 20:
+        print ("Not Wierd")
+else:
+    print("Weird")
