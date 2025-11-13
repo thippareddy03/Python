@@ -21,3 +21,24 @@ while start > 1:
                 break
     start -= 1
 
+
+
+
+
+Max_Number = 20
+Start = 5
+Until Start < Max_Number
+do
+if Max_Number % Start == 0
+result = start
+#Need to find out if this result is Prime or not
+Prime_Start == 2
+untill Prime_Start =< result
+if result % Prime_Start != 0
+Prime_Number = result
+end if
+Prime_Start = prime_Start + 1
+end if
+start = start + 1
+print Prime_Number
+
